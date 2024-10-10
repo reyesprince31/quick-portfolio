@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import Sidebar from "@/components/sidebar";
+import MobileNav from "@/components/mobile-nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,15 +33,15 @@ export default function RootLayout({
 
 function PageWithSidebar({ children }: { children: React.ReactNode }) {
   return (
-    <div className={"flex dark:bg-background max-h-screen"}>
-      <div className={"hidden lg:flex"}>
+    <div className="flex dark:bg-background max-h-screen">
+      <div className="hidden lg:flex">
         <Sidebar />
       </div>
 
-      <div
-        className={
-          "flex flex-1 flex-col overflow-clip overflow-y-auto bg-background lg:m-1.5 lg:ml-0 lg:rounded-lg lg:border"
-        }>
+      <div className="flex flex-1 flex-col overflow-clip overflow-y-auto bg-background lg:m-1.5 lg:ml-0 lg:rounded-lg lg:border">
+        <div className="lg:hidden">
+          <MobileNav />
+        </div>
         {children}
       </div>
     </div>
