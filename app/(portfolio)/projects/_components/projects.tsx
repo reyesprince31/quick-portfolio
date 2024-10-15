@@ -5,36 +5,43 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
-    id: "aceternity",
-    title: "Aceternity",
+    id: "mvpkit",
+    title: "MVPkit",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    image: "/assets/dashboard-screenshot.png",
-    tags: ["Nextjs", "Tailwindcss"],
+      "MVPkit is a SaaS kit developed to ship MVPs faster. A multi-tenant application serving both B2C and B2B, built with Next.js and Supabase for rapid deployment.",
+    image: "/assets/mvpkit.png", // Replace with the actual image path
+    tags: [
+      "Next.js",
+      "TailwindCSS",
+      "Monorepo",
+      "Supabase",
+      "Multi-tenant",
+      "SaaS",
+    ],
   },
   {
-    id: "algochurn",
-    title: "Algochurn",
+    id: "prodesk",
+    title: "ProDesk",
     description:
-      "Practice for technical interviews with hands-on coding challenges.",
-    image: "/assets/dashboard-screenshot.png",
-    tags: ["Nextjs", "Tailwindcss"],
+      "A project management tool designed for design agencies, offering real-time task tracking and seamless team collaboration.",
+    image: "/assets/prodesk.jpeg", // Replace with the actual image path
+    tags: ["Next.js", "TailwindCSS", "ReduxToolkit", "AWS", "Supabase"],
   },
   {
-    id: "moonbeam",
-    title: "Moonbeam",
+    id: "codebility",
+    title: "Codebility",
     description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
-    image: "/assets/dashboard-screenshot.png",
-    tags: ["Nextjs", "Tailwindcss"],
+      "Web app optimization for a staffing agency, built with Next.js and Supabase for tracking and managing developer teams.",
+    image: "/assets/codebility.png", // Replace with the actual image path
+    tags: ["Next.js", "TailwindCSS", "Monorepo", "Supabase"],
   },
   {
-    id: "tailwind-master-kit",
-    title: "Tailwind Master Kit",
+    id: "wild-oasis",
+    title: "The Wild Oasis",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    image: "/assets/dashboard-screenshot.png",
-    tags: ["Nextjs", "Tailwindcss"],
+      "A booking system with real-time updates, optimized for managing cabin rentals and customer interactions.",
+    image: "/assets/wild-oasis.jpg", // Replace with the actual image path
+    tags: ["Next.js", "TailwindCSS", "Supabase"],
   },
 ];
 
