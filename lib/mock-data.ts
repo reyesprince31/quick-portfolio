@@ -40,17 +40,19 @@ export const mockUserData = {
     experience: [
         {
             company: "Codebility",
-            position: "Product Manager - Apprenticeship",
+            position: "Lead Software Engineer",
             period: "Mar 2024 - Present",
-            description: "Leading product development and team management",
+            description: "Leading software development efforts and managing cross-functional teams to deliver high-quality SaaS applications.",
             companyUrl: "https://www.codebility.tech/",
             achievements: [
-                "Demonstrated strong understanding of Agile and Scrum methodologies",
-                "Proficient in using project management tools such as Trello, Asana, Linear, and Taiga",
-                "Successfully led and motivated teams, delegating tasks and ensuring project deliverables were met",
-                "Actively mentored and trained interns, helping them develop their skills",
-                "Contributed to planning and ideation of the company's in-house app, proposing architectural and technological solutions using Next.js and Supabase",
-                "Served as admin on the community side and panelist at a hackathon event",
+                "Architected and developed a multi-tenant SaaS application using Next.js and Supabase.",
+                "Transformed in-house app into a monorepo using TurboRepo for maintainability and scalability.",
+                "Integrated Storybook to build a component library, ensuring UI/UX consistency.",
+                "Created detailed product backlogs, user stories, and acceptance criteria, applying Agile and Scrum methodologies.",
+                "Led cross-functional teams, set deadlines, and ensured timely delivery of project milestones.",
+                "Mentored interns and junior developers to improve their skills and guide their growth.",
+                "Successfully deployed applications on AWS, Vercel, and Supabase for scalability and performance optimization.",
+                "Participated in architectural decision-making and contributed to ideation for the company's internal applications."
             ],
         },
         {
