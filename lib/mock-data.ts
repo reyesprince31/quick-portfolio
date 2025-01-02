@@ -73,7 +73,7 @@ export const mockUserData = {
         {
             company: "Freelance",
             position: "Software Engineer",
-            period: "Aug 2022 - Mar 2024",
+            period: "Aug 2021 - Mar 2024",
             description: "Providing software solutions for various clients",
             achievements: [
                 "Architected and developed a web app for clinic appointment and patient record management",
